@@ -1,5 +1,7 @@
 from components.header import header
 
+from functions.quadrado import areaDoQuadrado
+
 def AreaDasFigurasPlanas():
     header()
 
@@ -15,7 +17,7 @@ def AreaDasFigurasPlanas():
     escolha = input('➤ ')
 
     if escolha == '1':
-        pass
+        areaDoQuadrado()
     elif escolha =='2':
         pass
     elif escolha =='3':
