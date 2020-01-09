@@ -1,6 +1,7 @@
 from components.header import header
 
 from functions.quadrado import areaDoQuadrado
+from functions.triangulo import areaDoTrianguloMenu
 
 def AreaDasFigurasPlanas():
     header()
@@ -19,7 +20,7 @@ def AreaDasFigurasPlanas():
     if escolha == '1':
         areaDoQuadrado()
     elif escolha =='2':
-        pass
+        areaDoTrianguloMenu()
     elif escolha =='3':
         pass
     elif escolha =='4':
