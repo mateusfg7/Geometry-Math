@@ -4,6 +4,7 @@ from functions.quadrado import areaDoQuadrado
 from functions.triangulo import areaDoTrianguloMenu
 from functions.trapezio import areaDoTrapezioMenu
 from functions.lozango import areaDoLozangoMenu
+from functions.circulo import areaDoCirculoMenu
 
 def AreaDasFigurasPlanas():
     header()
@@ -28,4 +29,4 @@ def AreaDasFigurasPlanas():
     elif escolha =='4':
         areaDoLozangoMenu()
     elif escolha =='5':
-        pass
+        areaDoCirculoMenu()
