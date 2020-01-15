@@ -43,3 +43,4 @@ def areaDoTrianguloMenu():
         areaBhMenu()
     elif escolha == '2':
         areaSPMenu()
+        

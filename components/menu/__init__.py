@@ -12,3 +12,4 @@ def mainMenu():
 
     if escolha == '1':
         AreaDasFigurasPlanas()
+        

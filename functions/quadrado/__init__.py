@@ -11,3 +11,4 @@ def areaDoQuadrado():
     resultado = int(areaDoQuadradoCalc(base, altura))
 
     print(f'\nÁrea [A] = {resultado}')
+    

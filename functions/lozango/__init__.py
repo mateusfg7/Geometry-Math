@@ -10,3 +10,4 @@ def areaDoLozangoMenu():
     diagonalMenor = float(input('Diagonal Menor [d] ➤ '))
 
     print(f'\nArea [A] = {areaDoLozango(diagonalMaior, diagonalMenor)}')
+    

@@ -15,3 +15,4 @@ def areaDoTrianguloSpCalc(a, b, c):
         area = 'numero negativo'
 
     return area
+    

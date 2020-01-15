@@ -30,3 +30,4 @@ def AreaDasFigurasPlanas():
         areaDoLozangoMenu()
     elif escolha =='5':
         areaDoCirculoMenu()
+        

@@ -8,3 +8,4 @@ def areaDoCirculoMenu():
 
     raio = float(input('Raio [r] ➤ '))
     print(f'\nArea [A] = {areaDoCirculo(raio)}')
+    
