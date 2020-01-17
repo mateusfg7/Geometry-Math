@@ -1,15 +1,14 @@
 from components.header import header
-from components.menu.area_das_figuras_planas import AreaDasFigurasPlanas
+from components.menu.FlatFiguresMenu import flat_figures_menu
 
-def mainMenu():
+def main_menu():
     header()
 
     print("""
 [1] Área das figuras planas
     """)
 
-    escolha = input('➤ ')
+    choice = input('➤ ')
 
-    if escolha == '1':
-        AreaDasFigurasPlanas()
-        
+    if choice == '1':
+        flat_figures_menu()

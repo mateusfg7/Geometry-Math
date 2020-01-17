@@ -1,3 +1,3 @@
-from components.menu import mainMenu
+from components.menu import main_menu
 
-mainMenu()
+main_menu()

@@ -1,12 +1,12 @@
 from components.header import header
 
-from functions.quadrado import areaDoQuadrado
-from functions.triangulo import areaDoTrianguloMenu
-from functions.trapezio import areaDoTrapezioMenu
-from functions.lozango import areaDoLozangoMenu
-from functions.circulo import areaDoCirculoMenu
+from functions.square import square_area_menu
+from functions.triangle import triangle_area_menu
+from functions.trapeze import trapeze_area_menu
+from functions.diamond import diamond_area_menu
+from functions.circle import circle_area_menu
 
-def AreaDasFigurasPlanas():
+def flat_figures_menu():
     header()
 
     print('Áreas das figuras planas'.center(66))
@@ -21,13 +21,12 @@ def AreaDasFigurasPlanas():
     escolha = input('➤ ')
 
     if escolha == '1':
-        areaDoQuadrado()
+        square_area_menu()
     elif escolha =='2':
-        areaDoTrianguloMenu()
+        triangle_area_menu()
     elif escolha =='3':
-        areaDoTrapezioMenu()
+        trapeze_area_menu()
     elif escolha =='4':
-        areaDoLozangoMenu()
+        diamond_area_menu()
     elif escolha =='5':
-        areaDoCirculoMenu()
-        
+        circle_area_menu()
