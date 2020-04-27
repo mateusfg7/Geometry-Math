@@ -1,3 +1,6 @@
-from components.menu import main_menu
+from components.header import header
 
-main_menu()
+from components.menu import main_menu
+from components.menu.FlatFiguresMenu import flat_figures_menu
+
+main_menu(header, flat_figures_menu)

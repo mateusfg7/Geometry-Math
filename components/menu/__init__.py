@@ -1,7 +1,3 @@
-from components.header import header
-from components.menu.FlatFiguresMenu import flat_figures_menu
-
-
 def main_menu(header, flatFiguresMenu):
     header()
 
