@@ -1,3 +1,5 @@
+from math import pi
+
 from components.header import header
 from functions.circle.CircleArea import circleArea
 
@@ -8,4 +10,4 @@ def circleAreaMenu():
     print('A =π.r²\n')
 
     radius = float(input('Raio [r] ➤ '))
-    print(f'\nArea [A] = {circleArea(radius)}')
+    print(f'\nArea [A] = {circleArea(pi, radius)}')
