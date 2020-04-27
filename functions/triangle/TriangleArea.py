@@ -1,5 +1,3 @@
-from math import sqrt
-
 '''
 a -> area
 b -> base
