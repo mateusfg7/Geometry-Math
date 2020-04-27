@@ -1,5 +1,6 @@
 from components.header import header
-from functions.trapeze.TrapezeArea import trapeze_area
+from functions.trapeze.TrapezeArea import trapezeArea
+
 
 def trapeze_area_menu():
     header()
@@ -9,4 +10,4 @@ def trapeze_area_menu():
     smallerBase = float(input('Base Menor [b] ➤ '))
     height = float(input('Altura [h] ➤ '))
 
-    print(f'\nÁrea [A] = {trapeze_area(largerBase, smallerBase, height)}')
+    print(f'\nÁrea [A] = {trapezeArea(largerBase, smallerBase, height)}')
