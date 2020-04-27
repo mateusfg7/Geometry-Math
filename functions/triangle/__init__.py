@@ -29,7 +29,7 @@ def menuAreaSP():
     print(f'\nÁrea [A] = {result}')
 
 
-def triangle_area_menu():
+def triangleAreaMenu():
     header()
     print('Triangulo'.center(66))
     print("""
