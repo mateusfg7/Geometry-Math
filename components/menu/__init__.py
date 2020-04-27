@@ -1,7 +1,8 @@
 from components.header import header
 from components.menu.FlatFiguresMenu import flat_figures_menu
 
-def main_menu():
+
+def main_menu(header, flatFiguresMenu):
     header()
 
     print("""
@@ -11,4 +12,4 @@ def main_menu():
     choice = input('➤ ')
 
     if choice == '1':
-        flat_figures_menu()
+        flatFiguresMenu()
