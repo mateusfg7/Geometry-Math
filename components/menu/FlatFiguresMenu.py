@@ -6,7 +6,8 @@ from functions.trapeze import trapeze_area_menu
 from functions.diamond import diamond_area_menu
 from functions.circle import circle_area_menu
 
-def flat_figures_menu():
+
+def flatFiguresMenu():
     header()
 
     print('Áreas das figuras planas'.center(66))
@@ -22,11 +23,11 @@ def flat_figures_menu():
 
     if escolha == '1':
         square_area_menu()
-    elif escolha =='2':
+    elif escolha == '2':
         triangle_area_menu()
-    elif escolha =='3':
+    elif escolha == '3':
         trapeze_area_menu()
-    elif escolha =='4':
+    elif escolha == '4':
         diamond_area_menu()
-    elif escolha =='5':
+    elif escolha == '5':
         circle_area_menu()
