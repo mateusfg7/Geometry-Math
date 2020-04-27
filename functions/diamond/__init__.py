@@ -2,7 +2,7 @@ from components.header import header
 from functions.diamond.DiamondArea import diamondArea
 
 
-def diamond_area_menu():
+def diamondAreaMenu():
     header()
 
     print('A=(D.d)/2\n')

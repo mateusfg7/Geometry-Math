@@ -3,7 +3,7 @@ from components.header import header
 from functions.square import squareAreaMenu
 from functions.triangle import triangle_area_menu
 from functions.trapeze import trapeze_area_menu
-from functions.diamond import diamond_area_menu
+from functions.diamond import diamondAreaMenu
 from functions.circle import circleAreaMenu
 
 
@@ -25,7 +25,7 @@ def flatFiguresMenu():
         '1': lambda: squareAreaMenu(),
         '2': lambda: triangle_area_menu(),
         '3': lambda: trapeze_area_menu(),
-        '4': lambda: diamond_area_menu(),
+        '4': lambda: diamondAreaMenu(),
         '5': lambda: circleAreaMenu(),
     }
     selectFunction[escolha]()
