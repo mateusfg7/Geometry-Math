@@ -1,8 +1,8 @@
-'''
-D -> Larger Diagonal
-d -> Smaller Diagonal
-a -> Area
-'''
-def diamond_area(D, d):
+def diamondArea(D, d):
+    '''
+    D -> Larger Diagonal
+    d -> Smaller Diagonal
+    a -> Area
+    '''
     a = (D*d)/2
     return a
