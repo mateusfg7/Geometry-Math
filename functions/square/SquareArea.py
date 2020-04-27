@@ -4,6 +4,7 @@ b -> base
 h -> height
 '''
 
-def calculate_square_area(b, h):
+
+def calculateSquareArea(b, h):
     a = b*h
     return a

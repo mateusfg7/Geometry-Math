@@ -1,5 +1,6 @@
 from components.header import header
-from functions.square.SquareArea import calculate_square_area
+from functions.square.SquareArea import calculateSquareArea
+
 
 def square_area_menu():
     header()
@@ -8,7 +9,6 @@ def square_area_menu():
 
     base = float(input('Base [B] ➤ '))
     height = float(input('Altura [h] ➤ '))
-    result = float(calculate_square_area(base, height))
+    result = float(calculateSquareArea(base, height))
 
     print(f'\nÁrea [A] = {result}')
-    
