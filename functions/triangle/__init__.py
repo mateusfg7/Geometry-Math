@@ -2,7 +2,8 @@ from components.header import header
 from functions.triangle.TriangleArea import calculate_triangle_area_BH
 from functions.triangle.TriangleArea import calculate_triangle_area_SP
 
-def menu_area_BH():
+
+def menuAreaBH():
     header()
 
     print("A = (B.h)/2\n")
@@ -13,7 +14,8 @@ def menu_area_BH():
 
     print(f'\nÁrea [A] = {result}')
 
-def menu_area_SP():
+
+def menuAreaSP():
     header()
 
     print("p=(a+b+c)/2")
@@ -25,6 +27,7 @@ def menu_area_SP():
     result = calculate_triangle_area_SP(sideA, sideB, sideC)
 
     print(f'\nÁrea [A] = {result}')
+
 
 def triangle_area_menu():
     header()
@@ -41,6 +44,6 @@ def triangle_area_menu():
     choice = input('➤ ')
 
     if choice == '1':
-        menu_area_BH()
+        menuAreaBH()
     elif choice == '2':
-        menu_area_SP()
+        menuAreaSP()
