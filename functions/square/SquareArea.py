@@ -5,6 +5,6 @@ h -> height
 '''
 
 
-def calculateSquareArea(b, h):
+def calculateSquareArea(b: float, h: float) -> float:
     a = b*h
     return a
