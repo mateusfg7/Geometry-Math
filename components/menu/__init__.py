@@ -1,4 +1,4 @@
-def main_menu(header, flatFiguresMenu):
+def main_menu(header, flatFiguresMenu) -> None:
     header()
 
     print("""
