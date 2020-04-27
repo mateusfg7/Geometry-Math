@@ -2,7 +2,7 @@ from components.header import header
 from functions.square.SquareArea import calculateSquareArea
 
 
-def square_area_menu():
+def squareAreaMenu():
     header()
 
     print("A=B.h\n")
