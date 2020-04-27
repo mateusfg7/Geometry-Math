@@ -1,6 +1,6 @@
 from components.header import header
-from functions.triangle.TriangleArea import calculate_triangle_area_BH
-from functions.triangle.TriangleArea import calculate_triangle_area_SP
+from functions.triangle.TriangleArea import calculateTriangleAreaBH
+from functions.triangle.TriangleArea import calculateTriangleAreaSP
 
 
 def menuAreaBH():
@@ -10,7 +10,7 @@ def menuAreaBH():
 
     base = float(input('Base [B] ➤ '))
     height = float(input('Altura [h] ➤ '))
-    result = float(calculate_triangle_area_BH(base, height))
+    result = float(calculateTriangleAreaBH(base, height))
 
     print(f'\nÁrea [A] = {result}')
 
@@ -24,7 +24,7 @@ def menuAreaSP():
     sideA = float(input('Lado A ➤ '))
     sideB = float(input('Lado B ➤ '))
     sideC = float(input('Lado C ➤ '))
-    result = calculate_triangle_area_SP(sideA, sideB, sideC)
+    result = calculateTriangleAreaSP(sideA, sideB, sideC)
 
     print(f'\nÁrea [A] = {result}')
 
