@@ -21,13 +21,11 @@ def flatFiguresMenu():
 
     escolha = input('➤ ')
 
-    if escolha == '1':
-        square_area_menu()
-    elif escolha == '2':
-        triangle_area_menu()
-    elif escolha == '3':
-        trapeze_area_menu()
-    elif escolha == '4':
-        diamond_area_menu()
-    elif escolha == '5':
-        circle_area_menu()
+    selectFunction = {
+        '1': lambda: square_area_menu(),
+        '2': lambda: triangle_area_menu(),
+        '3': lambda: trapeze_area_menu(),
+        '4': lambda: diamond_area_menu(),
+        '5': lambda: circle_area_menu(),
+    }
+    selectFunction[escolha]()
