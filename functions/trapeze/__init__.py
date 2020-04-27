@@ -2,7 +2,7 @@ from components.header import header
 from functions.trapeze.TrapezeArea import trapezeArea
 
 
-def trapeze_area_menu():
+def trapezeAreaMenu():
     header()
     print('A=((B+b).h)/2\n')
 
