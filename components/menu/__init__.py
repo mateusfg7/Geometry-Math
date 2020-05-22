@@ -1,4 +1,14 @@
-def main_menu(header, flatFiguresMenu) -> None:
+from typing import NoReturn, Callable
+
+
+def main_menu(header: Callable[[], NoReturn],
+              flatFiguresMenu: Callable[[], NoReturn]) -> NoReturn:
+    '''
+    Main menu of all the functions.
+    Don't need any params and don't have return,
+    this function just print the options and execute the choice.
+    '''
+
     header()
 
     print("""
