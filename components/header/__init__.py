@@ -1,6 +1,6 @@
-import os
 
 def header():
+    import os
     os.system('clear')
     print("""
 ▒█▀▀█ █▀▀ █▀▀█ █▀▄▀█ █▀▀ ▀▀█▀▀ █▀▀█ █░░█ 　 ▒█▀▄▀█ █▀▀█ ▀▀█▀▀ █░░█ 
