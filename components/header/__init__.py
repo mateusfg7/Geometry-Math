@@ -1,6 +1,10 @@
 from typing import NoReturn
 
+
 def header() -> NoReturn:
+    '''
+    Clears the screen and display the header, containing the banner and credits.
+    '''
     import os
     os.system('clear')
     print("""
@@ -13,4 +17,3 @@ def header() -> NoReturn:
     print('https://github.com/mateusfg7'.center(66))
     print(('-'*28).center(66))
     print('\n')
-    
