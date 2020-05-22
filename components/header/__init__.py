@@ -1,5 +1,6 @@
+from typing import NoReturn
 
-def header():
+def header() -> NoReturn:
     import os
     os.system('clear')
     print("""
