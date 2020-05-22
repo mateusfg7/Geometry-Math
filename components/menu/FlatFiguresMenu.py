@@ -1,3 +1,5 @@
+from typing import NoReturn
+
 from components.header import header
 
 from functions.square import squareAreaMenu
@@ -7,7 +9,10 @@ from functions.diamond import diamondAreaMenu
 from functions.circle import circleAreaMenu
 
 
-def flatFiguresMenu():
+def flatFiguresMenu() -> NoReturn:
+    '''
+    This function displays the list of math figures options and select the choice.
+    '''
     header()
 
     print('Áreas das figuras planas'.center(66))
