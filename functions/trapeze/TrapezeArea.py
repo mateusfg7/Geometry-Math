@@ -1,9 +1,9 @@
 def trapezeArea(B: float, b: float, h: float) -> float:
     '''
-    B -> Larger Base
-    b -> Smaller Base
-    h -> height
-    a -> area
+    B -> Larger Base\n
+    b -> Smaller Base\n
+    h -> height\n
+    a -> area\n
     '''
-    a = ((B+b)*h)/2
+    a: float = ((B+b)*h)/2
     return a
