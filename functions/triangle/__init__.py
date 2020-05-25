@@ -1,9 +1,15 @@
+from typing import NoReturn
+
 from components.header import header
 from functions.triangle.TriangleArea import calculateTriangleAreaBH
 from functions.triangle.TriangleArea import calculateTriangleAreaSP
 
 
-def menuAreaBH():
+def menuAreaBH() -> NoReturn:
+    '''
+    Shows header and menu of choices.\n
+    Select the choice.
+    '''
     header()
 
     print("A = (B.h)/2\n")
