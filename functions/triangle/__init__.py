@@ -7,8 +7,7 @@ from functions.triangle.TriangleArea import calculateTriangleAreaSP
 
 def menuAreaBH() -> NoReturn:
     '''
-    Shows header and menu of choices.\n
-    Select the choice.
+    Shows header and options to calculate the triangle area based on base and height.\n
     '''
     header()
 
@@ -21,7 +20,11 @@ def menuAreaBH() -> NoReturn:
     print(f'\nÁrea [A] = {result}')
 
 
-def menuAreaSP():
+def menuAreaSP() -> NoReturn:
+    '''
+    Shows header and menu of choices.\n
+    Select the choice.
+    '''
     header()
 
     print("p=(a+b+c)/2")
