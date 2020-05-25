@@ -1,8 +1,8 @@
-def diamondArea(D, d):
+def diamondArea(D: float, d: float) -> float:
     '''
-    D -> Larger Diagonal
-    d -> Smaller Diagonal
-    a -> Area
+    D -> Larger Diagonal\n
+    d -> Smaller Diagonal\n
+    a -> Area\n
     '''
-    a = (D*d)/2
+    a: float = (D*d)/2
     return a
