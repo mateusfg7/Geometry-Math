@@ -22,8 +22,7 @@ def menuAreaBH() -> NoReturn:
 
 def menuAreaSP() -> NoReturn:
     '''
-    Shows header and menu of choices.\n
-    Select the choice.
+    Shows header and options for calculating the area of triangle based on the sides of triangle.\n
     '''
     header()
 
