@@ -1,8 +1,13 @@
+from typing import NoReturn
+
 from components.header import header
 from functions.trapeze.TrapezeArea import trapezeArea
 
 
-def trapezeAreaMenu():
+def trapezeAreaMenu() -> NoReturn:
+    '''
+    Shows header and options for calculating the area of the trapeze.
+    '''
     header()
     print('A=((B+b).h)/2\n')
 
