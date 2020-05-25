@@ -7,7 +7,7 @@ from functions.triangle.TriangleArea import calculateTriangleAreaSP
 
 def menuAreaBH() -> NoReturn:
     '''
-    Shows header and options to calculate the triangle area based on base and height.\n
+    Shows header and options for calculating the area of the trangle based on the base and height.\n
     '''
     header()
 
