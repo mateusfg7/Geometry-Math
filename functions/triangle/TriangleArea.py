@@ -1,24 +1,24 @@
-'''
-a -> area
-b -> base
-h -> height
-'''
+from typing import Union
 
 
 def calculateTriangleAreaBH(b: float, h: float) -> float:
-    a = (b*h)/2
+    '''
+    a -> area\n
+    b -> base\n
+    h -> height\n
+    '''
+    a: float = (b*h)/2
     return a
 
 
-'''
-a -> side A
-b -> side B
-c -> side C
-'''
 
-
-def calculateTriangleAreaSP(a: float, b: float, c: float) -> float:
-    semiPerimeter = (a+b+c)/2
+def calculateTriangleAreaSP(a: float, b: float, c: float) -> Union[float, str]:
+    '''
+    a -> side A
+    b -> side B
+    c -> side C
+    '''
+    semiPerimeter: float = (a+b+c)/2
 
     spCalc = semiPerimeter*(semiPerimeter-a) * \
         (semiPerimeter-b)*(semiPerimeter-c)
