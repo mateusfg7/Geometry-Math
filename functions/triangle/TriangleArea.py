@@ -11,12 +11,11 @@ def calculateTriangleAreaBH(b: float, h: float) -> float:
     return a
 
 
-
 def calculateTriangleAreaSP(a: float, b: float, c: float) -> Union[float, str]:
     '''
-    a -> side A
-    b -> side B
-    c -> side C
+    a -> side A\n
+    b -> side B\n
+    c -> side C\n
     '''
     semiPerimeter: float = (a+b+c)/2
 
