@@ -37,7 +37,12 @@ def menuAreaSP() -> NoReturn:
     print(f'\nÁrea [A] = {result}')
 
 
-def triangleAreaMenu():
+def triangleAreaMenu() -> NoReturn:
+    '''
+    Shows header and options for calculating the area of the triangle based on two methods:
+    base and height,
+    and sizes.
+    '''
     header()
     print('Triangulo'.center(66))
     print("""
